@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523637618536",
+    "firebase_url": "https://deshesproject.firebaseio.com",
+    "project_id": "deshesproject",
+    "storage_bucket": "deshesproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523637618536:android:72bf12cd0ddad029bb48dd",
+        "android_client_info": {
+          "package_name": "com.example.project_rest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523637618536-7vf7thpla8qt08qemio1hsf8jirlb5qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtFyKSDr4FMIkJIx4KVBvi1pSbwJaZWyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523637618536-7vf7thpla8qt08qemio1hsf8jirlb5qh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "523637618536-2flro3i3ejter01r5cglgdk126a0cjnn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.package.projet",
+                "app_store_id": "123456789"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
