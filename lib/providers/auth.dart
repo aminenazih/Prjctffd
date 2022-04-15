@@ -35,7 +35,7 @@ class Auth with ChangeNotifier {
         'https://www.googleapis.com/identitytoolkit/v3/relyingparty/$urlSegment?key=AIzaSyCXGUzUxbVYOO1uJn8y8u1vlMeuTwKLe6Y';
     try {
       final response = await http.post(
-        url,
+        Uri.parse( url),
         body: json.encode(
           {
             'nom' : nom,

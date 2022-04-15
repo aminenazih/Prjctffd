@@ -12,14 +12,14 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\flutter\project_rest\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\flutter\project_rest\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Users\elbssita\Desktop\Prjctffd\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\elbssita\Desktop\Prjctffd\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->[:location] C:\flutter\project_rest\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
-15-->[:location] C:\flutter\project_rest\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+15-->[:location] C:\Users\elbssita\Desktop\Prjctffd\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+15-->[:location] C:\Users\elbssita\Desktop\Prjctffd\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->[:location] C:\flutter\project_rest\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
-16-->[:location] C:\flutter\project_rest\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+16-->[:location] C:\Users\elbssita\Desktop\Prjctffd\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+16-->[:location] C:\Users\elbssita\Desktop\Prjctffd\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
 17    <!--
 18 io.flutter.app.FlutterApplication is an android.app.Application that
 19         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -28,39 +28,23 @@
 22         FlutterApplication and put your custom class here.
 23    -->
 24    <application
-24-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:8:5-29:19
-25        android:name="io.flutter.app.FlutterApplication"
-25-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:9:9-57
+25        android:name="android.app.Application"
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-26-->[androidx.core:core:1.0.0] C:\Users\oyhiuiu\.gradle\caches\transforms-2\files-2.1\090ddc8efd66e9b882db22ed21c2c84d\core-1.0.0\AndroidManifest.xml:22:18-86
+26-->[androidx.core:core:1.6.0] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\83aedba8cf11a8c77f8c6a92d5eb6fc5\core-1.6.0\AndroidManifest.xml:24:18-86
 27        android:debuggable="true"
 28        android:icon="@mipmap/ic_launcher"
-28-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:11:9-43
 29        android:label="project_rest" >
-29-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:10:9-37
 30        <activity
-30-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:12:9-23:20
 31            android:name="com.example.project_rest.MainActivity"
-31-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:13:13-41
 32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-32-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:16:13-163
 33            android:hardwareAccelerated="true"
-33-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:17:13-47
 34            android:launchMode="singleTop"
-34-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:14:13-43
 35            android:theme="@style/LaunchTheme"
-35-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:15:13-47
 36            android:windowSoftInputMode="adjustResize" >
-36-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:18:13-55
 37            <intent-filter>
-37-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:19:13-22:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:20:17-68
-38-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:20:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:21:17-76
-40-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:21:27-74
 41            </intent-filter>
 42        </activity>
 43        <!--
@@ -68,27 +52,37 @@
 45             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 46        -->
 47        <meta-data
-47-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:26:9-28:33
 48            android:name="flutterEmbedding"
-48-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:27:13-44
 49            android:value="2" />
-49-->C:\flutter\project_rest\android\app\src\main\AndroidManifest.xml:28:13-30
 50
-51        <activity
-51-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\oyhiuiu\.gradle\caches\transforms-2\files-2.1\ae79d92a0b030ca42c05273b0b34ef48\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-52-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\oyhiuiu\.gradle\caches\transforms-2\files-2.1\ae79d92a0b030ca42c05273b0b34ef48\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-53            android:exported="false"
-53-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\oyhiuiu\.gradle\caches\transforms-2\files-2.1\ae79d92a0b030ca42c05273b0b34ef48\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-54-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\oyhiuiu\.gradle\caches\transforms-2\files-2.1\ae79d92a0b030ca42c05273b0b34ef48\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-55
-56        <meta-data
-56-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\oyhiuiu\.gradle\caches\transforms-2\files-2.1\ef8e9371350080c0c5a3b9c8351283d5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-57            android:name="com.google.android.gms.version"
-57-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\oyhiuiu\.gradle\caches\transforms-2\files-2.1\ef8e9371350080c0c5a3b9c8351283d5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-58            android:value="@integer/google_play_services_version" />
-58-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\oyhiuiu\.gradle\caches\transforms-2\files-2.1\ef8e9371350080c0c5a3b9c8351283d5\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-59    </application>
-60
-61</manifest>
+51        <uses-library
+51-->[androidx.window:window:1.0.0-beta04] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\6efd260e72820c06776c915005370072\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+52            android:name="androidx.window.extensions"
+52-->[androidx.window:window:1.0.0-beta04] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\6efd260e72820c06776c915005370072\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0-beta04] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\6efd260e72820c06776c915005370072\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+54        <uses-library
+54-->[androidx.window:window:1.0.0-beta04] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\6efd260e72820c06776c915005370072\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+55            android:name="androidx.window.sidecar"
+55-->[androidx.window:window:1.0.0-beta04] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\6efd260e72820c06776c915005370072\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0-beta04] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\6efd260e72820c06776c915005370072\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+57
+58        <activity
+58-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\eefd352268160eadafe58b4fed58f8ce\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\eefd352268160eadafe58b4fed58f8ce\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\eefd352268160eadafe58b4fed58f8ce\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\eefd352268160eadafe58b4fed58f8ce\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+62
+63        <meta-data
+63-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\e1a442462eb2e1fcb7965150fa88c5c0\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+64            android:name="com.google.android.gms.version"
+64-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\e1a442462eb2e1fcb7965150fa88c5c0\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+65            android:value="@integer/google_play_services_version" />
+65-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\elbssita\.gradle\caches\transforms-2\files-2.1\e1a442462eb2e1fcb7965150fa88c5c0\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+66    </application>
+67
+68</manifest>

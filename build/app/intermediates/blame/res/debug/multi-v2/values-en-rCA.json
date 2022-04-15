@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\flutter\\project_rest\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "C:\\Users\\elbssita\\Desktop\\Prjctffd\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oyhiuiu\\.gradle\\caches\\transforms-2\\files-2.1\\090ddc8efd66e9b882db22ed21c2c84d\\core-1.0.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\elbssita\\.gradle\\caches\\transforms-2\\files-2.1\\83aedba8cf11a8c77f8c6a92d5eb6fc5\\core-1.6.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

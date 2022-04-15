@@ -33,7 +33,7 @@ class Product with ChangeNotifier {
         'https://flutter-update.firebaseio.com/userFavorites/$userId/$id.json?auth=$token';
     try {
       final response = await http.put(
-        url,
+        Uri.parse(url),
         body: json.encode(
           isFavorite,
         ),

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong/latlong.dart';
 import '../widgets/app_drawer.dart';
-import 'package:geocoder/geocoder.dart';
+import 'package:geocoder2/geocoder2.dart';
 
 class MyMarker extends StatelessWidget {
   static const routeName = '/MapMarker';
@@ -26,22 +26,22 @@ class _MyMarkerPageState extends State<MyMarkerPage>{
       return allMarkers;
     }
     addToList() async{
-      final coordinates = new Coordinates(1.10, 45.50);
-      var addresses = await Geocoder.local.findAddressesFromCoordinates(coordinates);
-      var first = addresses.first;
+
+      //final coordinates = new Coordinates(1.10, 45.50);
+      GeoData geoData = await Geocoder2.getDataFromCoordinates(latitude: 1.10, longitude: 45.50) ;//.local.findAddressesFromCoordinates(coordinates);
       setState((){
         allMarkers.add(
             new Marker(
             width: 45.0,
             height: 45.0,
-            point: new LatLng(first.coordinates.latitude,first.coordinates.longitude),
+            point: new LatLng(geoData.latitude,geoData.longitude),
             builder: (context) => new Container(
                 child : IconButton(
                   icon: Icon(Icons.location_on),
                   color: Colors.green,
                   iconSize: 45.0,
                   onPressed: (){
-                    print(first.featureName);
+                    print(geoData.address);
                   },
                 ),
             )
